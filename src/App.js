@@ -7,6 +7,7 @@ import Button from '@mui/material/Button';
 import { IoAdd } from "react-icons/io5";
 import Modal from '@mui/material/Modal';
 import './App.css';
+import { Link } from 'react-router-dom';
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -305,6 +306,7 @@ const handleSubmit = (event) => {
       </div>
         )}
     </div>
+    <div className='confession'><Link to="/confession"><button>COnfession</button></Link></div>
 
         {/* )
       ) : (

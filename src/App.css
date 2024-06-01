@@ -3,10 +3,11 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  /* background-color: #EDEDED; */
 }
 .containerStyle{
 display: grid;
-grid-template-columns: repeat(auto-fit, minmax(500px,2fr));
+grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
 gap: 20px;
 /* grid gap: 10px; */
 /* justify-content: center; */
